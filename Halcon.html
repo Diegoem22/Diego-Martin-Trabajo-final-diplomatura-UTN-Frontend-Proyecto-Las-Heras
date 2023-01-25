@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Halconcito - Proyecto Las Heras</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="icon" type="image/png" href="img/ave.png">
+	<meta name= viewport content= width=device-width initial-scale=1.0 maximum-scale=1.0 minium-scale=1.0 user-scalable=no>
+</head>
+<body>
+	<section id="contenedor">
+		<header>
+			<div id="banner">
+				<img src="img/banner.jpg">
+			</div>
+			<nav  class="navegacion"> 
+				<ul class="menu">
+					<li> <a href="index.html">INICIO</a></li>
+					<li> <a href="Aves.html">AVES</a>
+						<ul class ="subm">
+							<li><a href="Carancho.html" >CARANCHO</a></li>
+							<li><a href="Halcon.html" >HALCONCITO</a></li>
+							<li><a href="Gavilan.html" >GAVILÁN MIXTO</a></li>
+						</ul>
+						</li>
+					<li> <a href="sound.html">SONIDOS</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="columna">
+			<h1>REDES</h1>
+			<div class="redes">
+			<a  href="https://www.facebook.com/profile.php?id=100071842388678"><img src="img/facebook.png"></a>
+			<a href="https://www.instagram.com/proyecto_las_heras/"><img src="img/instagram.png"></a>
+			<a href="https://twitter.com/?lang=es"><img src="img/gorjeo.png"></a>
+			</div>
+		</section>
+
+
+		<section id="contenido">
+			<div id="texto">
+				<h1>Halconcito colorado</h1>
+				<p> El simpatiquísimo halconcito colorado es el halcón más pequeño de nuestro territorio, se alimenta de otras aves y también roedores, aunque su principal fuente de alimento en realidad son insectos! 
+					</p>
+					<p> Es frecuente de verlo utilizando como percha postes o cables, desde los cuales sale a la persecución de sus presas. Aunque si no tiene donde posarse, puede vérselo cernido en el aire, manteniéndose en el lugar a fuerza de aleteos, lo que le otorga el nombre utilizado en los Estados Unidos, American kestrel (cernícalo americano).</p>
+					<p> Un dato curioso más! En las fotos podemos ver a un macho dando la espalda y mirando sobre sus hombros, mientras que la hembra nos da un medio perfil y mira de frente. ¿ Saben cómo identificar a cada uno? Mas allá de que en todas las aves rapaces (o casi todas más bien) las hembras son más grandes que los machos, en el halconcito colorado el macho presenta una espalda con combinación de colores naranja y gris, mientras que en el caso de la hembra su espalda es de un solo color naranja barrado completo.
+						¿Los han visto? Estén atentos! Se confunden con facilidad si uno no está atento! </p>
+				</div>
+			</div>
+			<div id="Aves-Galeria">
+				<img src="img/Halconcito/halcon1.jpg" onclick="openfulimg(this.src)" alt="Halconcito colorado" title="Halconcito colorado"></a>
+				<img src="img/Halconcito/halcon2.jpg" onclick="openfulimg(this.src)" alt="Halconcito colorado" title="Halconcito colorado"></a>
+				<img src="img/Halconcito/halcon3.jpg" onclick="openfulimg(this.src)" alt="Halconcito colorado" title="Halconcito coloradoo"></a>
+			</div>
+
+			<div id="Aves-video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/jWcGxXJ6a2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</section>
+		
+
+		<footer>
+			<img src="img/footer.jpg">
+		</footer>
+
+	</section>
+
+	<div class="ful-img" id="fulimgBox">
+		<img src="img/Halconcito/halcon1.jpg" id="ful-img" alt="">
+	<span onclick="closeimg()">X</span>
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>

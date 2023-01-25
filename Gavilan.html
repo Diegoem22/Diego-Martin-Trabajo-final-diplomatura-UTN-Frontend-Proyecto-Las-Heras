@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Gavilan - Proyecto Las Heras</title>
+	<link rel="icon" type="image/png" href="img/ave.png">
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<meta name= viewport content= width=device-width initial-scale=1.0 maximum-scale=1.0 minium-scale=1.0 user-scalable=no>
+</head>
+<body>
+	<section id="contenedor">
+		<header>
+			<div id="banner">
+				<img src="img/banner.jpg">
+			</div>
+			<nav  class="navegacion"> 
+				<ul class="menu">
+					<li> <a href="index.html">INICIO</a></li>
+					<li> <a href="Aves.html">AVES</a>
+						<ul class ="subm">
+							<li><a href="Carancho.html" >CARANCHO</a></li>
+							<li><a href="Halcon.html" >HALCONCITO</a></li>
+							<li><a href="Gavilan.html" >GAVILÁN MIXTO</a></li>
+						</ul>
+						</li>
+					<li> <a href="sound.html">SONIDOS</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="columna">
+			<h1>REDES</h1>
+			<div class="redes">
+			<a  href="https://www.facebook.com/profile.php?id=100071842388678"><img src="img/facebook.png"></a>
+			<a href="https://www.instagram.com/"><img src="img/instagram.png"></a>
+			<a href="https://twitter.com/?lang=es"><img src="img/gorjeo.png"></a>
+			</div>
+		</section>
+
+
+		<section id="contenido">
+			<div id="texto">
+				<h1>Gavilán mixto</h1>
+				<p> El Gavilán Mixto (parabuteo unicinctus) es una de las aves rapaces que más se pueden observar por Buenos Aires, no solo en el partido de Gral. Las Heras, sino por todo buenos aires y el país completo! 
+				</p>
+				<p> Se trata de una de las rapaces más adaptables y generalistas, variando su dieta desde roedores hasta palomas o incluso pequeños reptiles.
+					Lejos de atacar al perro de la casa, estas hermosas aves contribuyen al control biológico de la paloma bravía o paloma común de plaza (Columba livia), habitante en extremo abundante e invasor de nuestro territorio ya que es originaria de Eurasia y África.</p>
+					<p> Aprendamos a mirar el cielo y poder ver estos hermosos ejemplares, las fotos pertenecen a juveniles y en ellos es característico su color barrado, en los ejemplares adultos son de un color marrón muy oscuros con hombros color bronce.</p>
+			</div>
+		</div>
+		<div id="Aves-Galeria">
+			<img src="img/Gavilan/Gavilan1.jpg" onclick="openfulimg(this.src)" alt="Gavilán mixto" title="Gavilán mixto"></a>
+			<img src="img/Gavilan/Gavilan2.jpg" onclick="openfulimg(this.src)" alt="Gavilán mixto" title="Gavilán mixto"></a>
+			<img src="img/Gavilan/Gavilan3.jpg" onclick="openfulimg(this.src)" alt="Gavilán mixto" title="Gavilán mixto"></a>
+		</div>
+			<div id="Aves-video">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/FdiIYk8wzJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+		</section>
+
+		<footer>
+			<img src="img/footer.jpg">
+		</footer>
+
+	</section>
+
+	<div class="ful-img" id="fulimgBox">
+		<img src="img/Gavilan/Gavilan1.jpg" id="ful-img" alt="">
+	<span onclick="closeimg()">X</span>
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
